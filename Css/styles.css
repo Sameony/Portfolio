@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,700&display=swap');
+:root{
 
+}
 body{
     font-family: 'Besley', serif;
 }
@@ -10,4 +12,20 @@ body{
 .container-center{
     margin:auto;
     max-width: 600px;
+}
+
+.link{
+    text-decoration: none;
+    font-weight: 400;
+    padding: 0 0.5rem 0 1rem;
+}
+.link-primary{
+    color:white;
+    background-color: gray;
+    border-radius: 8px; 
+}
+.link-secondary{
+    border-color: gray;
+    border: 1px solid;
+    border-radius: 8px;
 }
