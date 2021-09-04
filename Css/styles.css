@@ -6,6 +6,7 @@
 }
 body{
     font-family: 'Besley', serif;
+    margin: 0px;
 }
 
 .container{
@@ -23,9 +24,10 @@ hr{
     text-decoration: none;
     font-weight: 400;
     padding: 0 0.5rem 0 1rem;
+    color:white;
 }
 .link-primary{
-    color:white;
+    
     background-color: gray;
     border-radius: 8px; 
 }
@@ -33,7 +35,14 @@ hr{
     border-color: gray;
     border: 1px solid;
     border-radius: 8px;
+    color:black;
 }
+.a :visited{
+    color: red;
+}
+
+
+
                     /**   Lists    **/
 .list-non-bullet{
     list-style: none;
@@ -104,4 +113,23 @@ hr{
     display: block;
     max-width: 550px;
     margin: auto;
+}
+
+                     /**   Footer  **/
+
+.footer{
+    background-color: var(--prim-color);
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    border-radius: 25px 0;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+    color:white;
+}
+
+.footer-header{
+    font-size: larger;
 }
