@@ -3,3 +3,11 @@
 body{
     font-family: 'Besley', serif;
 }
+
+.container{
+    padding:0 1rem 0 1rem;
+}
+.container-center{
+    margin:auto;
+    max-width: 600px;
+}
