@@ -19,6 +19,9 @@ body{
 .force-wide{
     max-width: auto;
 }
+.margin-top{
+    margin-top: 2rem;
+}
 hr{
     margin: 2rem 0;
 }
@@ -104,7 +107,7 @@ a.link-primary:active, a.link-primary:hover {
     text-align: center;
 }
 .hero-img{
-    max-width: 300px;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
