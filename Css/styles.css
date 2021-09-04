@@ -31,6 +31,7 @@ hr{
     background-color: gray;
     border-radius: 8px; 
     padding: 0 1rem;
+    color: white;
 }
 .link-secondary{
     border-color: gray;
@@ -38,6 +39,9 @@ hr{
     border-radius: 8px;
     color:black;
     padding: 0 1rem;
+}
+.link-project{
+    color: red;
 }
 a.link-secondary:active, a.link-secondary:hover {
     background-color: var(--prim-color);
