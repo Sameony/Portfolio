@@ -16,8 +16,14 @@ body{
     margin:auto;
     max-width: 600px;
 }
+.force-wide{
+    max-width: auto;
+}
 hr{
     margin: 2rem 0;
+}
+.padding-md{
+    padding: 2rem;
 }
                     /**   Links   **/
 .link{
