@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,700&display=swap');
 :root{
-    --prim-color:gray;
+    --prim-color:#6B7280;
+    --off-white:#D1D5DB;
 
 }
 body{
@@ -85,4 +86,22 @@ hr{
 }
 .hero .hero-heading .heading-inverted{
     color: var(--prim-color);
+}
+
+                     /**   Section  **/
+
+.section{
+    padding: 1rem;
+
+}
+.section h1{
+    text-align: center;
+    padding: 1rem;
+}
+.ow{
+    
+    background-color: var(--off-white);
+    display: block;
+    max-width: 550px;
+    margin: auto;
 }
