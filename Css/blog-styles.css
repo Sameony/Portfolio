@@ -33,15 +33,33 @@ hr{
     font-size: xx-large;
 }
 .smallify{
-    font-size: 1rem;
+    font-size: small;
 }
 .pepesi1{
     max-width: 65vw;
     padding: 1rem;
 }
-.pepe2{
+.pepe2, .shippu{
     max-height: 70vw;
     display: block;
     margin: auto;
     padding: 2rem;
+}
+
+
+.footer{
+    text-align: center;
+}
+.footer ul{
+    padding-inline-start: 0px;
+    color:white;
+    
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+.list-item-inline{
+    display: inline;
+    padding: 1rem;
 }
