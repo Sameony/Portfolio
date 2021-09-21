@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Cinzel:wght@500&display=swap');
+
+body{
+    margin: 0;
+    padding: 1rem;
+
+}
+.header{
+    color: rgb(47, 123, 221);
+    font-family: 'Cinzel', serif;
+    font-size: 3rem;
+}
+
+hr{
+    background: rgb(47, 123, 221);
+    height: 3px;
+    margin: 0 4rem;
+    
+}
+
+.container{
+    text-align: center;
+}
+.content{
+    padding: 1rem;
+    font-family: 'Arima Madurai', cursive;
+    font-size: large;
+
+}
+
+.midHead{
+    color: orangered;
+    font-size: xx-large;
+}
+.smallify{
+    font-size: 1rem;
+}
+.pepesi1{
+    max-width: 65vw;
+    padding: 1rem;
+}
+.pepe2{
+    max-height: 70vw;
+    display: block;
+    margin: auto;
+    padding: 2rem;
+}
