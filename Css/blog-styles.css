@@ -1,65 +1,147 @@
 @import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Cinzel:wght@500&display=swap');
-
-body{
-    margin: 0;
-    padding: 1rem;
-
-}
-.header{
-    color: rgb(47, 123, 221);
-    font-family: 'Cinzel', serif;
-    font-size: 3rem;
-}
-
-hr{
-    background: rgb(47, 123, 221);
-    height: 3px;
-    margin: 0 4rem;
+@media all and (min-width:0px) and (max-width: 960px) {
+    body{
+        margin: 0 auto;
+        max-width: 70vw;
+        
     
-}
-
-.container{
-    text-align: center;
-}
-.content{
-    padding: 1rem;
-    font-family: 'Arima Madurai', cursive;
-    font-size: large;
-
-}
-
-.midHead{
-    color: orangered;
-    font-size: xx-large;
-}
-.smallify{
-    font-size: small;
-}
-.pepesi1{
-    max-width: 65vw;
-    padding: 1rem;
-}
-.pepe2, .shippu{
-    max-height: 70vw;
-    display: block;
-    margin: auto;
-    padding: 2rem;
-}
-
-
-.footer{
-    text-align: center;
-}
-.footer ul{
-    padding-inline-start: 0px;
-    color:white;
+    }
+   
+    .header{
+        color: rgb(47, 123, 221);
+        font-family: 'Cinzel', serif;
+        font-size: 3rem;
+    }
     
-}
+    hr{
+        background: rgb(47, 123, 221);
+        height: 3px;
+        margin: 0 4rem;
+        
+    }
+    h1, h2{
+        padding: 1rem;
+    }
+    .container{
+        text-align: center;
+    }
+    .content{
+        padding: 1rem;
+        font-family: 'Arima Madurai', cursive;
+        font-size: large;
+    
+    }
+    
+    .midHead{
+        color: orangered;
+        font-size: xx-large;
+    }
+    .smallify{
+        font-size: small;
+    }
+    .pepesi1{
+        max-width: 65vw;
+        padding: 1rem 0;
+    }
+    .pepe2, .shippu{
+        max-height: 70vw;
+        display: block;
+        margin: auto;
+        padding: 2rem 0;
+    }
+    
+    
+    .footer{
+        text-align: center;
+    }
+    .footer ul{
+        padding-inline-start: 0px;
+        color:white;
+        
+    }
+    
+    .list-non-bullet{
+        list-style: none;
+    }
+    .list-item-inline{
+        display: inline;
+        padding: 1rem;
+    }
+  }
 
-.list-non-bullet{
-    list-style: none;
-}
-.list-item-inline{
-    display: inline;
-    padding: 1rem;
+@media all and (min-width:960px) {
+    body{
+        margin: 0 auto;
+        max-width: 70vw;
+        padding: 1rem;
+        background-image: url("/Images/bg.jpg");
+        background-size: cover;
+    
+    }
+    .scroll{
+        background-color: white;
+        height: 70vw;
+        overflow-y: auto;
+        padding: 1.5rem;
+    }
+    .header{
+        color: rgb(47, 123, 221);
+        font-family: 'Cinzel', serif;
+        font-size: 3rem;
+    }
+    
+    hr{
+        background: rgb(47, 123, 221);
+        height: 3px;
+        margin: 0 4rem;
+        
+    }
+    h1, h2{
+        padding: 1rem;
+    }
+    .container{
+        text-align: center;
+    }
+    .content{
+        padding: 1rem;
+        font-family: 'Arima Madurai', cursive;
+        font-size: large;
+    
+    }
+    
+    .midHead{
+        color: orangered;
+        font-size: xx-large;
+    }
+    .smallify{
+        font-size: small;
+    }
+    .pepesi1{
+        max-width: 65vw;
+        padding: 1rem;
+    }
+    .pepe2, .shippu{
+        max-height: 70vw;
+        display: block;
+        margin: auto;
+        padding: 2rem;
+    }
+    
+    
+    .footer{
+        text-align: center;
+    }
+    .footer ul{
+        padding-inline-start: 0px;
+        color:white;
+        
+    }
+    
+    .list-non-bullet{
+        list-style: none;
+    }
+    .list-item-inline{
+        display: inline;
+        padding: 1rem;
+    }
 }
