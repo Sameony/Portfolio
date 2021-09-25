@@ -1,5 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Lobster+Two&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Righteous&display=swap');
 
+/* font-family: 'Comfortaa', cursive;
+font-family: 'Lobster Two', cursive;
+font-family: 'Poiret One', cursive; 
+font-family: 'Crete Round', serif;
+font-family: 'Righteous', cursive;*/
 :root {
     --prim-color: #e74141;
     --off-white: rgb(248, 76, 76);
@@ -7,10 +13,13 @@
 }
 
 body {
-    font-family: 'Besley', serif;
+    font-family: 'Comfortaa', cursive;
     margin: 0px;
 }
+h1{
+    font-family: 'Comfortaa', cursive;
 
+}
 .container {
     padding: 0 1rem 0 1rem;
 }
@@ -48,12 +57,10 @@ hr {
 
     background-color: white;
     border-radius: 8px;
-    padding: 0 1rem;
-    color: var(--prim-color);
+    padding: 0.2rem 1rem;
+    color: black;
     border: black solid 1px;
-    -webkit-text-fill-color: black;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color:black;
+    
 }
 
 .link-secondary {
@@ -61,7 +68,7 @@ hr {
     border: 1px solid;
     border-radius: 8px;
     color: black;
-    padding: 0 1rem;
+    padding: 0.2rem 1rem;
 }
 
 
@@ -79,9 +86,8 @@ a.link-primary:active,
 a.link-primary:hover {
     background-color: white;
     color: black;
-    -webkit-text-fill-color: white;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: var(--prim-color);
+    font-size: larger;
+    
 }
 
 .a :visited {
@@ -141,9 +147,11 @@ a.link-primary:hover {
 }
 
 .hero .hero-heading {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
     padding-top: 1rem;
+    font-family: 'Crete Round', serif;
+    
 }
 
 .hero .hero-heading .heading-inverted {
