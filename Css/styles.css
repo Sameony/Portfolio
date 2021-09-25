@@ -165,9 +165,7 @@ a.link-primary:hover {
 .ow {
 
     background-color: var(--off-white);
-    -webkit-text-fill-color: white; 
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white;
+  color: white;
 
 }
 
