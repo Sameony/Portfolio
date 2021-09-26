@@ -15,6 +15,7 @@ font-family: 'Righteous', cursive;*/
 body {
     font-family: 'Comfortaa', cursive;
     margin: 0px;
+    font-size: large;
 }
 h1{
     font-family: 'Comfortaa', cursive;
@@ -116,7 +117,7 @@ a.link-primary:hover {
 
 .nav-brand {
     font-weight: bold;
-    font-size: large;
+    font-size: x-large;
 }
 
 .navigation .link {
@@ -129,8 +130,8 @@ a.link-primary:hover {
 }
 
 .navigation .link-active {
-    font-weight: bold;
-    font-size: large;
+    font-weight: 1000;
+    font-size: larger;
 }
 
 /**   Header  **/
@@ -198,4 +199,14 @@ a.link-primary:hover {
     font-weight: bold;
 }
 
-/*  */
+/* smol icons */
+.smol-ico{
+    max-width: 40px;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.smol-ico:hover{
+    /* max-width: 45px; */
+    background-color: #d83c3cda;
+}
