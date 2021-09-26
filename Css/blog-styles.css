@@ -16,11 +16,21 @@
         padding: 1.5rem;
         border-top-left-radius: 2rem;
     }
-
+    /* font size adjustments */
     .header {
         color: rgb(47, 123, 221);
         font-family: 'Cinzel', serif;
-        font-size: 3rem;
+        font-size: 1.8rem;
+    }
+    .midHead {
+        color: orangered;
+        font-size: x-large;
+    }
+    .content{
+        font-size: small;
+    }
+    .smallify{
+        font-size: x-small;
     }
                                             /* mini header, my details */
     .splitscreen {
@@ -49,7 +59,7 @@
     }
 
     .mini-ico {
-        max-width: 30px;
+        max-width: 20px;
         margin-left: 1rem;
     }
 
@@ -78,6 +88,9 @@
     .footer{
         border-bottom-right-radius: 1.5rem;
     }
+    .bot-icon{
+        max-width: 30px;
+    }
 }
 
 
@@ -104,7 +117,16 @@
         font-family: 'Cinzel', serif;
         font-size: 3rem;
     }
-
+    .content{
+        font-size: large;
+    }
+    .midHead {
+        color: orangered;
+        font-size: xx-large;
+    }
+    .smallify {
+        font-size: small;
+    }
     .splitscreen {
         display: flex;
         justify-content: space-between;
@@ -175,30 +197,29 @@ h2 {
 .content {
     padding: 1rem;
     font-family: 'Arima Madurai', cursive;
-    font-size: large;
 
 }
 
-.midHead {
-    color: orangered;
-    font-size: xx-large;
-}
 
-.smallify {
-    font-size: small;
-}
+
+
 
 .pepesi1 {
     max-width: 65vw;
     padding: 1rem 0;
 }
 
-.pepe2,
-.shippu {
+.pepe2{
     max-height: 70vw;
     display: block;
     margin: auto;
     padding: 2rem 0;
+}
+.shippu{
+    max-width: 70vw;
+    display: block;
+    margin: auto;
+    
 }
 
                                         /* Footer Section */
