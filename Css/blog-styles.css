@@ -55,6 +55,8 @@
     display:flex;
     justify-content: space-between;
     text-align: right;
+    color: rgb(0, 0, 0);
+    
 }
 .splitscreen .left {
     flex: 0;
@@ -65,12 +67,25 @@
     
 }
 .my-co{
-    max-width: 64px;
+    max-height: 40px;
     margin-left: 5rem;
+    border-radius: 2.3rem;
+}
+.mini-ico{
+    max-width: 40px;
+    margin-left: 1rem;
 }
 .my-name{
     margin-left:0.8rem ;
-    text-align: left;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+}
+.date{
+    margin-top: 0.2rem;
+    font-size: smaller;
+    margin-left: 1rem;
+    font-weight: bold;
 }
 hr {
     background: rgb(47, 123, 221);
