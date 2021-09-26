@@ -51,7 +51,27 @@
 
 
 }
-
+.splitscreen {
+    display:flex;
+    justify-content: space-between;
+    text-align: right;
+}
+.splitscreen .left {
+    flex: 0;
+}
+.splitscreen .right {
+    flex: 1;
+    margin-right: 4rem;
+    
+}
+.my-co{
+    max-width: 64px;
+    margin-left: 5rem;
+}
+.my-name{
+    margin-left:0.8rem ;
+    text-align: left;
+}
 hr {
     background: rgb(47, 123, 221);
     height: 3px;
