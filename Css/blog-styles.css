@@ -14,6 +14,7 @@
         height: 40rem;
         overflow-y: auto;
         padding: 1.5rem;
+        
     }
 
     .header {
@@ -39,6 +40,7 @@
         height: 70vw;
         overflow-y: auto;
         padding: 1.5rem;
+        
     }
 
     .header {
@@ -98,8 +100,13 @@ h2 {
 
 .footer {
     text-align: center;
+    background-color: white;
+    border-bottom-right-radius: 1.5rem;
 }
-
+.footer-header{
+    font-size: large;
+    font-weight: bold;
+}
 .footer ul {
     padding-inline-start: 0px;
     color: white;
@@ -112,7 +119,7 @@ h2 {
 
 .list-item-inline {
     display: inline;
-    padding: 1rem;
+    padding: 1rem 2rem;
 }
 
 
