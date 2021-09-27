@@ -7,8 +7,8 @@ font-family: 'Poiret One', cursive;
 font-family: 'Crete Round', serif;
 font-family: 'Righteous', cursive;*/
 :root {
-    --prim-color: #e74141;
-    --off-white: rgb(248, 76, 76);
+    --prim-color: #41b8e7;
+    --off-white: rgb(76, 214, 248);
 
 }
 
@@ -73,9 +73,6 @@ hr {
 }
 
 
-.link-project {
-    color: red;
-}
 
 a.link-secondary:active,
 a.link-secondary:hover {
@@ -91,9 +88,7 @@ a.link-primary:hover {
     
 }
 
-.a :visited {
-    color: red;
-}
+
 
 
 
@@ -208,5 +203,5 @@ a.link-primary:hover {
 
 .smol-ico:hover{
     /* max-width: 45px; */
-    background-color: #d83c3cda;
+    background-color: #ffffff;
 }
