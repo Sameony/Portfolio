@@ -6,6 +6,7 @@ font-family: 'Lobster Two', cursive;
 font-family: 'Poiret One', cursive; 
 font-family: 'Crete Round', serif;
 font-family: 'Righteous', cursive;*/
+
 :root {
     --prim-color: #41b8e7;
     --off-white: rgb(76, 214, 248);
@@ -16,6 +17,7 @@ body {
     font-family: 'Comfortaa', cursive;
     margin: 0px;
     font-size: large;
+    
 }
 h1{
     font-family: 'Comfortaa', cursive;
@@ -52,6 +54,7 @@ hr {
     font-weight: 400;
     padding: 0 0.5rem 0 1rem;
     color: white;
+    transition: all ease-in 0.3s;
 }
 
 .link-primary {
@@ -61,7 +64,7 @@ hr {
     padding: 0.2rem 1rem;
     color: black;
     border: black solid 1px;
-    
+    transition: all ease-in 0.3s;
 }
 
 .link-secondary {
@@ -70,6 +73,7 @@ hr {
     border-radius: 8px;
     color: black;
     padding: 0.2rem 1rem;
+    transition: all ease-in 0.2s;
 }
 
 
@@ -88,8 +92,21 @@ a.link-primary:hover {
     
 }
 
+.largify:hover{
+    font-size: x-large;
+}
 
+.easeit{
+    transition: all ease-in 0.2s;
+}
 
+.easeit:hover{
+   background-color: white;
+   padding-top: 2.2rem;
+   padding-left: 0.5rem;
+   padding-right: 0.3rem;
+   border-radius: 20px;
+}
 
 
 /**   Lists    **/
@@ -100,6 +117,7 @@ a.link-primary:hover {
 .list-item-inline {
     display: inline;
 }
+
 
 /**     Navigation      **/
 .navigation {
@@ -199,6 +217,7 @@ a.link-primary:hover {
     max-width: 40px;
     padding: 1rem;
     border-radius: 1rem;
+    transition: all ease-in 0.2s;
 }
 
 .smol-ico:hover{
